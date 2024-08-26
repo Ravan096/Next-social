@@ -100,7 +100,7 @@ const Sidebar = () => {
                                     <Link href='message'>
                                         <span>-</span> Chat
                                     </Link>
-                                    <Link href='' className='flex'>
+                                    <Link href='chatcontacts' className='flex'>
                                         <span>-</span> Contacts
                                     </Link>
                                     <Link href=''>
