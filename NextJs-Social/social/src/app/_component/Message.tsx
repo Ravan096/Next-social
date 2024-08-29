@@ -270,28 +270,36 @@ const Message = () => {
             <div className='flex items-center justify-center '>
               <span className='text-sm text-black bg-green-200 rounded-md'>Today</span>
             </div>
-            <div className=' border-2 border-green-700'>
-              <div>
-                <div className='flex border-2 border-black w-[20%]  justify-around'>
-                  <div className='border-2 border-red-400'>
-                    <div className="avatar online">
-                      <div className="w-8 rounded-full">
-                        <img src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
-                      </div>
-                    </div>
-                  </div>
-                  <div>
-                    <div className='flex border-2 border-green-500 items-start h-full text-xs font-semibold'>
-                      <p>Katrina</p>
-                      <p className='ml-2'>10:12PM</p>
-                    </div>
-                  </div>
+            <div className="chat chat-start">
+              <div className="chat-image avatar">
+                <div className="w-10 rounded-full">
+                  <img
+                    alt="Tailwind CSS chat bubble component"
+                    src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
                 </div>
-                <div>
-                  <p>hi</p>
-                </div>
-                <div>how are you?</div>
               </div>
+              <div className="chat-header">
+                Obi-Wan Kenobi
+                <time className="text-xs opacity-50">12:45</time>
+              </div>
+              <div className="chat-bubble chat-bubble-secondary">You were the Chosen One!</div>
+              <div className="chat-footer opacity-50">Seen at 12:46</div>
+              
+            </div>
+            <div className="chat chat-end">
+              <div className="chat-image avatar">
+                <div className="w-10 rounded-full">
+                  <img
+                    alt="Tailwind CSS chat bubble component"
+                    src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
+                </div>
+              </div>
+              <div className="chat-header">
+                You
+                <time className="text-xs opacity-50">12:46</time>
+              </div>
+              <div className="chat-bubble chat-bubble-success">I hate you!</div>
+              <div className="chat-footer opacity-50">Delivered</div>
             </div>
           </div>
 
@@ -406,15 +414,15 @@ const Message = () => {
               <p className='text-sm'><a href="#">View All</a></p>
             </div>
             <div className=' flex flex-wrap gap-3 justify-around'>
-              <img src={image6.src} alt="" style={{height:"100px", width:"100px"}}/>
-              <img src={image5.src} alt="" style={{height:"100px", width:"100px"}}/>
-              <img src={image4.src} alt="" style={{height:"100px", width:"100px"}}/>
-              <img src={image7.src} alt="" style={{height:"100px", width:"100px"}}/>
-              <img src={image8.src} alt="" style={{height:"100px", width:"100px"}}/>
-              <img src={image9.src} alt="" style={{height:"100px", width:"100px"}}/>
-              <img src={image1.src} alt="" style={{height:"100px", width:"100px"}}/>
-              <img src={image2.src} alt="" style={{height:"100px", width:"100px"}}/>
-              <img src={image3.src} alt="" style={{height:"100px", width:"100px"}}/>
+              <img src={image6.src} alt="" style={{ height: "100px", width: "100px" }} />
+              <img src={image5.src} alt="" style={{ height: "100px", width: "100px" }} />
+              <img src={image4.src} alt="" style={{ height: "100px", width: "100px" }} />
+              <img src={image7.src} alt="" style={{ height: "100px", width: "100px" }} />
+              <img src={image8.src} alt="" style={{ height: "100px", width: "100px" }} />
+              <img src={image9.src} alt="" style={{ height: "100px", width: "100px" }} />
+              <img src={image1.src} alt="" style={{ height: "100px", width: "100px" }} />
+              <img src={image2.src} alt="" style={{ height: "100px", width: "100px" }} />
+              <img src={image3.src} alt="" style={{ height: "100px", width: "100px" }} />
             </div>
           </div>
         </div>

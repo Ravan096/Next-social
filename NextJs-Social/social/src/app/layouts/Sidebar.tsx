@@ -52,7 +52,7 @@ const Sidebar = () => {
                                     <Link href=''>
                                         <span>-</span> Crypto
                                     </Link>
-                                    <Link href=''>
+                                    <Link href='crm'>
                                         <span>-</span> CRM
                                     </Link>
                                     <Link href=''>
